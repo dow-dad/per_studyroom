@@ -1,0 +1,30 @@
+/* (속성:속성값;) -> 선언 */
+
+/* 클래스명 : 클래스명 선택자*/
+.color-primary{color:darkred;}
+.color-second{color:blueviolet;}
+.font-50px {font-size:50px;}
+.font-1px {font-size:1px;}
+.select-style1{height:40px; font-size:20px; color:orange;}
+
+/* div>ul : 자식 선택자 */
+div>ul {border: 1px dotted black;}
+.tb-head>tr>td{border:1px solid #000; font-size:14px; font-weight:bold; color:#777;}
+.tb-body>tr>td{border:1px solid #000;}
+
+/* p: 태그 선택자 */
+/* p {background:yellowgreen; color:darkgreen;} */
+
+/* #id : id 선택자*/
+#p1 {background:peru; color:purple;
+}
+
+/* div ul : 하위 선택자*/
+div ul {border:1px dotted black;}
+
+/* * : 전체 선택자 */
+
+
+
+hr.garo { border: solid #dedede; border-width: 1px 0 0;}
+
