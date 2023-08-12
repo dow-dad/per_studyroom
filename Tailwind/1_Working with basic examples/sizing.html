@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sizing</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- space-y-8 : 각 요소의 간격 -->
+    <!-- bg-red-200 : red color 숫자가 높아질수록 진해짐 -->
+    <!-- shadow : 그림자, rounded : radius -->
+    <!-- w-96 : 96%나 96px이 아님, 0.25rem*96임 https://tailwindcss.com/docs/width-->
+    <!-- h${hello world}*6 -->
+    <h1>hello world</h1>
+    <h2>hello world</h2>
+    <h3>hello world</h3>
+    <h4>hello world</h4>
+    <h5>hello world</h5>
+    <h6>hello world</h6>
+    <div class="space-y-6 bg-blue-300">
+        <div class="w-96 bg-white shadow rounded">
+            w-96
+        </div>
+        <div class="w-80 bg-white shadow rounded">
+            w-80
+        </div>
+        <div class="w-72 bg-white shadow rounded">
+            w-72
+        </div>
+        <div class="w-64 bg-white shadow rounded">
+            w-64
+        </div>
+        <div class="w-60 bg-white shadow rounded">
+            w-60
+        </div>
+        <div class="w-56 bg-white shadow rounded">
+            w-56
+        </div>
+        <div class="w-52 bg-white shadow rounded">
+            w-52
+        </div>
+        <div class="w-48 bg-white shadow rounded">
+            w-48
+        </div>
+        <div class="w-1/4 bg-white shadow rounded">
+            w-55
+        </div>
+    <figure class="md:flex bg-slate-100 rounded-xl p-8 md:p-0 dark:bg-slate-800">
+        <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" src="/sarah-dayan.jpg" alt="" width="384" height="512">
+        <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+          <blockquote>
+            <p class="text-lg font-medium">
+              “Tailwind CSS is the only framework that I've seen scale
+              on large teams. It’s easy to customize, adapts to any design,
+              and the build size is tiny.”
+            </p>
+          </blockquote>
+          <figcaption class="font-medium">
+            <div class="text-sky-500 dark:text-sky-400">
+              Sarah Dayan
+            </div>
+            <div class="text-slate-700 dark:text-slate-500">
+              Staff Engineer, Algolia
+            </div>
+          </figcaption>
+        </div>
+      </figure>
+</body>
+</html>

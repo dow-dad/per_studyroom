@@ -1,0 +1,27 @@
+생활코딩 https://www.youtube.com/watch?v=smAU6-ZdcoQ
+
+1)기본 셋팅
+1. node.js 설치
+2.next.js 개발환경 설치
+npx create-next-app@latest 
+3. 설치된 경로로 이동 해서 실행
+npm run dev
+4.next-app\src\app\layout.js : 기본적인 웹페이지 골격을 구성
+
+2) 샘플앱 세탁하기
+1. layout.js 불필요 요소 제거
+2. page.js 불필요 요소 제거
+3. global.css 전부 제거
+4. 세탁완료
+
+3)배포
+1. npm run build : 배포를 위한 배포판 생성
+2. .next 생성(배포판)
+3. npm run start : .next 서비스 제공
+4. 21배 정도 적은 리소스 용량이 사용된다.
+
+4)
+
+
+
+
